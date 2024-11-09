@@ -25,12 +25,13 @@ describe('Quiz.cy.tsx', () => {
       .find('.mt-3').should('exist')
       .find('.d-flex.align-items-center.mb-2').should('exist')
       .find('.btn.btn-primary').should('have.length', 4).should('exist')
+      .should('not.have.text', '')
 
-    // question card with  4 answers
+    // question card with 4 answers
     cy.get('.card.p-4').should('exist')
       .find('.mt-3').should('exist')
       .find('.d-flex.align-items-center.mb-2').should('exist')
       .find('.alert.alert-secondary.mb-0.ms-2.flex-grow-1').should('have.length', 4).should('exist')
-
+      .should('not.have.text', '')
   });
 })
