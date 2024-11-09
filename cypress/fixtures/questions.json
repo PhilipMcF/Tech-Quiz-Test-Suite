@@ -1,5 +1,212 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "question": "What symbol is used to start a comment in Python?",
+    "answers": [
+      {
+        "text": "#",
+        "isCorrect": true
+      },
+      {
+        "text": "%",
+        "isCorrect": false
+      },
+      {
+        "text": "$",
+        "isCorrect": false
+      },
+      {
+        "text": "@",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "text": "HyperText Markup Language",
+        "isCorrect": true
+      },
+      {
+        "text": "HighText Markdown Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyperlink Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which company developed JavaScript?",
+    "answers": [
+      {
+        "text": "Netscape",
+        "isCorrect": true
+      },
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": false
+      },
+      {
+        "text": "Apple",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which symbol is used to end a line of code in Python?",
+    "answers": [
+      {
+        "text": "Nothing",
+        "isCorrect": true
+      },
+      {
+        "text": ";",
+        "isCorrect": false
+      },
+      {
+        "text": ".",
+        "isCorrect": false
+      },
+      {
+        "text": ":",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which tag is used to define the main header of a webpage in HTML?",
+    "answers": [
+      {
+        "text": "<h1>",
+        "isCorrect": true
+      },
+      {
+        "text": "<header>",
+        "isCorrect": false
+      },
+      {
+        "text": "<main>",
+        "isCorrect": false
+      },
+      {
+        "text": "<title>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which command is used to print something in Python?",
+    "answers": [
+      {
+        "text": "print()",
+        "isCorrect": true
+      },
+      {
+        "text": "echo()",
+        "isCorrect": false
+      },
+      {
+        "text": "log()",
+        "isCorrect": false
+      },
+      {
+        "text": "display()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which language is used for styling web pages?",
+    "answers": [
+      {
+        "text": "CSS",
+        "isCorrect": true
+      },
+      {
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "Python",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      {
+        "text": "Cascading Style Sheets",
+        "isCorrect": true
+      },
+      {
+        "text": "Computer Style Sheets",
+        "isCorrect": false
+      },
+      {
+        "text": "Creative Style Sheets",
+        "isCorrect": false
+      },
+      {
+        "text": "Colorful Style Sheets",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What does the `console.log` function do in JavaScript?",
+    "answers": [
+      {
+        "text": "Prints output to the console",
+        "isCorrect": true
+      },
+      {
+        "text": "Logs user activity",
+        "isCorrect": false
+      },
+      {
+        "text": "Saves data to a database",
+        "isCorrect": false
+      },
+      {
+        "text": "Displays a prompt to the user",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these is a programming language?",
+    "answers": [
+      {
+        "text": "Python",
+        "isCorrect": true
+      },
+      {
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "CSS",
+        "isCorrect": false
+      },
+      {
+        "text": "Photoshop",
+        "isCorrect": false
+      }
+    ]
+  }
+]
