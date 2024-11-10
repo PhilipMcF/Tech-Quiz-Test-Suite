@@ -1,13 +1,13 @@
 describe('Quiz User Journey', () => {
   it('A user can visit the page to start the quiz', () => {
-    cy.visit('http://localhost:3001/')
+    cy.visit('http://localhost:3002/')
   });
 
   it('A user can start the quiz, click any of the 4 answers, see following questions, and get a final score', () => {
     // intercepting get request with fixture data
     cy.intercept('GET', '/api/questions/random', { fixture: 'questions.json' }).as('getQuizData');
     // visit quiz page
-    cy.visit('http://localhost:3001/')
+    cy.visit('http://localhost:3002/')
     // start quiz
     cy.get('button').should('exist').should('have.text', 'Start Quiz').click();
     // Wait for the intercepted API call to complete
