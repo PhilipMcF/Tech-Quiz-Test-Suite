@@ -10,10 +10,15 @@ describe('Quiz.cy.tsx', () => {
   });
 
   it('should render start quiz button, then render sameple question', () => {
+    // intercepting get request with fixture data
+    cy.intercept('GET', '/api/questions/random', { fixture: 'questions.json' }).as('getQuizData');
+    // mount quiz component
     cy.mount(<Quiz />)
 
     // start quiz button
     cy.get('button').should('exist').should('have.text', 'Start Quiz').click()
+    // Wait for the intercepted API call to complete
+    cy.wait('@getQuizData');
 
     // question card + h2 with question mark
     cy.get('.card.p-4').should('exist')
