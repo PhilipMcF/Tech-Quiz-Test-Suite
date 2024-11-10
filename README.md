@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 ## Description
 A project that allows a user to take a programming/coding related test with 10 randomly generated questions. <br>
-Main purpose was to create a component test and e2e test for the quiz project. This project will show you have to <br>
+Main purpose was to create a component test and e2e test for the quiz application. This project will show you have to <br>
 download the repo and run the tests made with Cypress.
 
 Technologies used:<br>
